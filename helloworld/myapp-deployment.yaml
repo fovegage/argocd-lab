@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: myapp
+  template:
+    metadata:
+      labels:
+        app: myapp
+    spec:
+      containers:
+        - image: registry.cn-shanghai.aliyuncs.com/public-namespace/myapp:v1
+          name: myapp
+          ports:
+            - containerPort: 80
+---
+# myapp-service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: myapp
+spec:
+  ports:
+    - port: 80
+      targetPort: 80
+      nodePort: 32060
+  type: NodePort
+  selector:
+    app: myapp
