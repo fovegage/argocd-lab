@@ -8,4 +8,7 @@ argocd app create testapp \
 --path quickstart --dest-server \
 https://kubernetes.default.svc \
 --dest-namespace crawler
+3. 同步app
+argocd app sync "${ARGO_APP}" --timeout 60  --plaintext
+argocd app wait "${ARGO_APP}" --timeout 60  --plaintext
 ```
