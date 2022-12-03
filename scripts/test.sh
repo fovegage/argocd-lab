@@ -8,4 +8,4 @@ if [ -f "$dialName" ]; then
   continue
 fi
 
-pwd
+ls , echo "\n\n"
