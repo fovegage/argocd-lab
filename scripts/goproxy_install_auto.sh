@@ -1,4 +1,8 @@
 #!/bin/bash
+# install wget
+yum -y install wget
+
+# bin download
 F="proxy-linux-amd64.tar.gz"
 set -e
 if [ -e /tmp/proxy ]; then
@@ -11,7 +15,7 @@ echo -e "\n>>> downloading ... $F\n"
 wget -t 1 "https://ghproxy.com/https://github.com/snail007/goproxy/releases/download/v12.3/proxy-linux-amd64.tar.gz"
 
 echo -e ">>> installing ... \n"
-# #install proxy
+# install proxy
 tar zxvf $F >/dev/null 2>&1
 set +e
 killall -9 proxy >/dev/null 2>&1
@@ -33,3 +37,5 @@ echo -e ">>> install done, thanks for using snail007/goproxy $version\n"
 echo -e ">>> install path /usr/bin/proxy\n"
 echo -e ">>> configuration path /etc/proxy\n"
 echo -e ">>> uninstall just exec : rm /usr/bin/proxy && rm -rf /etc/proxy\n"
+
+# dial-proxy download
