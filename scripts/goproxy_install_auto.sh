@@ -47,4 +47,4 @@ wget "https://ghproxy.com/https://raw.githubusercontent.com/fovegage/argocd-lab/
 
 cp -f dial-proxy /usr/bin/
 chmod +x /usr/bin/dial-proxy
-adsl-proxy --net ppp0 --time 30
+dial-proxy --net ppp0 --time 30
