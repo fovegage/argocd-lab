@@ -49,12 +49,14 @@ if [ -f "$dialName" ]; then
 fi
 
 # kill -9 `cat dial-proxy.pid`
-#dialPid="dial-proxy.pid"
-#if [ -f "$dialPid" ]; then
-#  # shellcheck disable=SC2046
-#  # shellcheck disable=SC2006
-#  kill -9 $(cat "$dialPid")
-#fi
+dialPid="dial-proxy.pid"
+if [ -f "$dialPid" ]; then
+  # shellcheck disable=SC2046
+  # shellcheck disable=SC2006
+  kill -9 $(cat "$dialPid")
+  # shellcheck disable=SC2105
+  continue
+fi
 
 wget "https://ghproxy.com/https://raw.githubusercontent.com/fovegage/releases/main/dial-proxy"
 cp -f /root/dial-proxy /usr/bin/
