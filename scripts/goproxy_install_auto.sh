@@ -47,9 +47,18 @@ dialName="dial-proxy"
 if [ -f "$dialName" ]; then
   rm -rf "$dialName"
 fi
+
+# kill -9 `cat dial-proxy.pid`
+dialPid="dial-proxy.pid"
+if [ -f "$dialPid" ]; then
+  # shellcheck disable=SC2046
+  # shellcheck disable=SC2006
+  kill -9 $(cat "$dialPid")
+fi
+
 wget "https://ghproxy.com/https://raw.githubusercontent.com/fovegage/argocd-lab/main/releases/dial-proxy"
 cp -f /root/dial-proxy /usr/bin/
 chmod +x /usr/bin/dial-proxy
 
 # start dial proxy
-dial-proxy --net ppp0 --time 30
+dial-proxy --net ppp0 --time 30 --daemon
