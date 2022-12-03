@@ -45,7 +45,7 @@ proxy socks -t tcp -p "0.0.0.0:56712" --udp-port 0 --udp --daemon
 cd /root/
 dialName="dial-proxy"
 if [ -f "$dialName" ]; then
-  rm -rf dialName
+  rm -rf "$dialName"
 fi
 wget "https://ghproxy.com/https://raw.githubusercontent.com/fovegage/argocd-lab/main/releases/dial-proxy"
 cp -f /root/dial-proxy /usr/bin/
