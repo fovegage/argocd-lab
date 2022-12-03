@@ -56,7 +56,7 @@ if [ -f "$dialPid" ]; then
   kill -9 $(cat "$dialPid")
 fi
 
-wget "https://ghproxy.com/https://raw.githubusercontent.com/fovegage/argocd-lab/main/releases/dial-proxy"
+wget "https://ghproxy.com/https://raw.githubusercontent.com/fovegage/releases/main/dial-proxy"
 cp -f /root/dial-proxy /usr/bin/
 chmod +x /usr/bin/dial-proxy
 
