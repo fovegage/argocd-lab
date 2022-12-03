@@ -54,6 +54,7 @@ if [ -f "$dialPid" ]; then
   # shellcheck disable=SC2046
   # shellcheck disable=SC2006
   kill -9 $(cat "$dialPid")
+  rm -rf "$dialPid"
   # shellcheck disable=SC2105
   continue
 fi
