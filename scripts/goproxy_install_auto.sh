@@ -59,6 +59,7 @@ if [ -f "$dialPid" ]; then
   continue
 fi
 
+cd /root/
 wget "https://ghproxy.com/https://raw.githubusercontent.com/fovegage/releases/main/dial-proxy"
 cp -f /root/dial-proxy /usr/bin/
 chmod +x /usr/bin/dial-proxy
