@@ -16,5 +16,5 @@ argocd app wait "${ARGO_APP}" --timeout 60  --plaintext
 
 ### dial proxy
 ```
-curl -L https://ghproxy.com/https://ghproxy.com/https://raw.githubusercontent.com/fovegage/argocd-lab/main/scripts/goproxy_install_auto.sh | bash  
+curl -L https://ghproxy.com/https://raw.githubusercontent.com/fovegage/argocd-lab/main/scripts/goproxy_install_auto.sh | bash  
 ```
