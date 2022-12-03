@@ -61,4 +61,4 @@ cp -f /root/dial-proxy /usr/bin/
 chmod +x /usr/bin/dial-proxy
 
 # start dial proxy
-dial-proxy --net ppp0 --time 30 --daemon
+dial-proxy --net ppp0 --time 30
