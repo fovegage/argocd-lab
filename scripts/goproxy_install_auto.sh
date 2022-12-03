@@ -38,13 +38,18 @@ echo -e ">>> install path /usr/bin/proxy\n"
 echo -e ">>> configuration path /etc/proxy\n"
 echo -e ">>> uninstall just exec : rm /usr/bin/proxy && rm -rf /etc/proxy\n"
 
+# start socks proxy
 proxy socks -t tcp -p "0.0.0.0:56712" --udp-port 0 --udp --daemon
 
-sleep 1
-
 # dial-proxy download
+cd /root/
+dialName="dial-proxy"
+if [ -f "$dialName" ]; then
+  rm -rf dialName
+fi
 wget "https://ghproxy.com/https://raw.githubusercontent.com/fovegage/argocd-lab/main/releases/dial-proxy"
-
-cp -f dial-proxy /usr/bin/
+cp -f /root/dial-proxy /usr/bin/
 chmod +x /usr/bin/dial-proxy
+
+# start dial proxy
 dial-proxy --net ppp0 --time 30
