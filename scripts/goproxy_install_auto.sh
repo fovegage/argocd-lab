@@ -65,4 +65,4 @@ chmod +x /usr/bin/dial-proxy
 
 # start dial proxy
 # shellcheck disable=SC2028
-nohup dial-proxy --net ppp --time 30 >nohup.out &
+nohup dial-proxy --net ppp --time 60 >nohup.out &
