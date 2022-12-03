@@ -40,10 +40,11 @@ echo -e ">>> uninstall just exec : rm /usr/bin/proxy && rm -rf /etc/proxy\n"
 
 proxy socks -t tcp -p "0.0.0.0:56712" --udp-port 0 --udp --daemon
 
+sleep 1
+
 # dial-proxy download
-wget -t 1 "https://ghproxy.com/https://raw.githubusercontent.com/fovegage/argocd-lab/main/releases/dial-proxy"
+wget "https://ghproxy.com/https://raw.githubusercontent.com/fovegage/argocd-lab/main/releases/dial-proxy"
 
 cp -f dial-proxy /usr/bin/
 chmod +x /usr/bin/dial-proxy
 adsl-proxy --net ppp0 --time 30
-
