@@ -64,4 +64,4 @@ cp -f /root/dial-proxy /usr/bin/
 chmod +x /usr/bin/dial-proxy
 
 # start dial proxy
-nohup dial-proxy --net ppp --time 60 >nohup.out & echo "\n"
+nohup dial-proxy >nohup.out & echo "\n"
