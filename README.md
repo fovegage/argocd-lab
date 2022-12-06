@@ -29,7 +29,8 @@ kubectl create -f https://ghproxy.com/https://raw.githubusercontent.com/pingcap/
 
 helm install hbase-test ./hbase-test -n database
 
-helm install tidb-operator ./tidb-operator-1.4.0-beta.3/charts/tidb-operator   -f ./tidb-operator-1.4.0-beta.3/charts/tidb-operator/values.yaml --namespace=storage
+# upgrade  install
+helm upgrade tidb-operator ./tidb-operator-1.4.0-beta.3/charts/tidb-operator   -f ./tidb-operator-1.4.0-beta.3/charts/tidb-operator/values.yaml --namespace=storage
 
 //
     kubectl get pods --namespace storage -l app.kubernetes.io/instance=tidb-operator
@@ -84,5 +85,26 @@ https://www.cnblogs.com/w84422/p/15596883.html
 ```
 # metabase
 https://juejin.cn/post/7169124983015211022
+
+```
+
+```
+kubectl delete -f https://ghproxy.com/https://raw.githubusercontent.com/pingcap/tidb-operator/v1.3.9/manifests/crd.yaml -n storage
+
+helm upgrade tidb-operator ./tidb-1.3.9/charts/tidb-operator   -f ./tidb-1.3.9/charts/tidb-operator/values.yaml --namespace=storage
+helm upgrade tidb-cluster  ./tidb-1.3.9/charts/tidb-cluster -f ./tidb-1.3.9/charts/tidb-cluster/values.yaml  --namespace=storage
+
+helm upgrade tidb-operator ./tidb-operator-1.4.0-beta.3/charts/tidb-operator   -f ./tidb-operator-1.4.0-beta.3/charts/tidb-operator/values.yaml --namespace=storage
+helm upgrade tidb-operator ./tidb-operator-1.4.0-beta.3/charts/tidb-operator   -f ./tidb-operator-1.4.0-beta.3/charts/tidb-operator/values.yaml --namespace=storage
+
+```
+
+```
+helm list -n storage
+helm uninstall tidb-cluster -n storage
+```
+
+```
+kubectl create -f https://ghproxy.com/https://raw.githubusercontent.com/pingcap/tidb-operator/v1.3.9/manifests/crd.yaml
 
 ```
