@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-17T02:30:13.085Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="1BMVF7MVNNUs8-o3x9T1" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-17T02:35:51.311Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="xBKe_71VTffscIb9uLW6" version="21.0.6" type="github">
   <diagram name="Page-1" id="YugNHdWj2oaaFu2_VZQL">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
       <root>
@@ -106,6 +106,15 @@
         </mxCell>
         <mxCell id="u9-jsfHzy2ss17F3eqX4-45" value="gRPC" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="810" y="555" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u9-jsfHzy2ss17F3eqX4-48" value="1、BiyaoDataFlow 负责爬虫任务的下发，爬取数据的查询" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="810" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u9-jsfHzy2ss17F3eqX4-50" value="2、BiyaoCrawlAPI 负责爬虫任务的接收和分发" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="840" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u9-jsfHzy2ss17F3eqX4-51" value="3、BiyaoCrawlLet 负责爬虫任务的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="95" y="875" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
