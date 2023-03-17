@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-17T09:17:47.179Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="P-L3G2OZNJRULBU5kE2R" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-17T09:18:21.307Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="PuSaTKjD2xeIdyYPJ8LK" version="21.0.6" type="github">
   <diagram name="Page-1" id="YugNHdWj2oaaFu2_VZQL">
     <mxGraphModel dx="1509" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
       <root>
@@ -156,7 +156,7 @@
           <mxGeometry x="14" y="981" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i3g2qH0CeW9kxm3Lizja-3" value="7、WebPage 爬虫前端，供产品和数据使用（Vue.js）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="11" y="1071" width="330" height="30" as="geometry" />
+          <mxGeometry x="11" y="1061" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i3g2qH0CeW9kxm3Lizja-4" value="涉及的资源 MySQL、RocketMQ、Kafka、Redis" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="480" y="981" width="280" height="30" as="geometry" />
@@ -171,16 +171,16 @@
           <mxGeometry x="481" y="1041" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i3g2qH0CeW9kxm3Lizja-9" value="Proxy 爬虫代理服务，需要结合第三方的收费IP运行，该服务依赖Redis" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="30" y="1011" width="400" height="30" as="geometry" />
+          <mxGeometry x="53" y="1010" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i3g2qH0CeW9kxm3Lizja-10" value="Cookie 爬虫代理池，服务存储多账号cookie，该服务依赖Redis" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="30" y="1041" width="360" height="30" as="geometry" />
+          <mxGeometry x="50" y="1037" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i3g2qH0CeW9kxm3Lizja-11" value="Android Hook 负责安卓平台的逆向" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="51" y="930" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i3g2qH0CeW9kxm3Lizja-12" value="JS sign 负责Web端、小程序端的逆向" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="55" y="955" width="220" height="30" as="geometry" />
+          <mxGeometry x="53" y="955" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
