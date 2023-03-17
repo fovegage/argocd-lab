@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-17T06:38:49.595Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="aHoLKXRjiG8fKvOW_HtQ" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-17T06:47:34.975Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="iaASxXiuFbAHMiRy-cXt" version="21.0.6" type="github">
   <diagram name="Page-1" id="YugNHdWj2oaaFu2_VZQL">
     <mxGraphModel dx="1509" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
       <root>
@@ -126,19 +126,19 @@
           <mxGeometry x="810" y="555" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="u9-jsfHzy2ss17F3eqX4-48" value="1、BiyaoDataFlow 爬虫控制中心，负责爬虫任务的下发，爬取数据的查询 （数据接收采用kfaka+Java，数据查询+任务下发 这里是后端做还是爬虫做）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="40" y="860" width="890" height="30" as="geometry" />
+          <mxGeometry x="40" y="890" width="890" height="30" as="geometry" />
         </mxCell>
         <mxCell id="u9-jsfHzy2ss17F3eqX4-50" value="2、BiyaoCrawlAPI 爬虫调度中心，负责爬虫任务的接收和分发（Golang+gRPC实现）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="40" y="890" width="520" height="30" as="geometry" />
+          <mxGeometry x="40" y="920" width="520" height="30" as="geometry" />
         </mxCell>
         <mxCell id="u9-jsfHzy2ss17F3eqX4-51" value="3、BiyaoCrawlLet 爬虫注册中心，负责与爬虫解析端交互（Golang+gRPC实现）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="41" y="920" width="490" height="30" as="geometry" />
+          <mxGeometry x="41" y="950" width="490" height="30" as="geometry" />
         </mxCell>
         <mxCell id="u9-jsfHzy2ss17F3eqX4-58" value="4、spider-xxx 爬虫解析端，负责解析天猫、京东、抖音等平台的数据（Python/Golang）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="41" y="950" width="530" height="30" as="geometry" />
+          <mxGeometry x="41" y="980" width="530" height="30" as="geometry" />
         </mxCell>
         <mxCell id="u9-jsfHzy2ss17F3eqX4-59" value="5、SignHub 爬虫逆向中心，负责JS算法还原和Android的逆向(Python/Node/Java)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="44" y="980" width="490" height="30" as="geometry" />
+          <mxGeometry x="44" y="1010" width="490" height="30" as="geometry" />
         </mxCell>
         <mxCell id="u9-jsfHzy2ss17F3eqX4-60" value="Android Hook" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="820" y="335" width="90" height="35" as="geometry" />
@@ -153,10 +153,10 @@
           <mxGeometry x="960" y="790" width="90" height="35" as="geometry" />
         </mxCell>
         <mxCell id="u9-jsfHzy2ss17F3eqX4-73" value="6、PassHub 爬虫下载器，负责商品的下载(Golang/Python)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="44" y="1010" width="360" height="30" as="geometry" />
+          <mxGeometry x="44" y="1040" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i3g2qH0CeW9kxm3Lizja-3" value="7、WebPage 爬虫前端，供产品和数据使用（Vue.js）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="45" y="1040" width="330" height="30" as="geometry" />
+          <mxGeometry x="45" y="1070" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i3g2qH0CeW9kxm3Lizja-4" value="涉及的资源 MySQL、RocketMQ、Kafka、Redis" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="40" y="775" width="280" height="30" as="geometry" />
@@ -166,6 +166,9 @@
         </mxCell>
         <mxCell id="i3g2qH0CeW9kxm3Lizja-6" value="每次爬取的数据是直接insert还是update，是否有对特定商品或者特定店铺的监控需求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="40" y="820" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i3g2qH0CeW9kxm3Lizja-8" value="大规模爬取还需要购买第三方的代理IP服务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="41" y="845" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
