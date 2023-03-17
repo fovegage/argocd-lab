@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-17T05:55:31.089Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="pAimb5JxQETW-OC9G_vr" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-17T06:05:38.455Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="SrCXGryBfmn7Rcss-2dL" version="21.0.6" type="github">
   <diagram name="Page-1" id="YugNHdWj2oaaFu2_VZQL">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
       <root>
@@ -125,20 +125,20 @@
         <mxCell id="u9-jsfHzy2ss17F3eqX4-45" value="gRPC" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="810" y="555" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="u9-jsfHzy2ss17F3eqX4-48" value="1、BiyaoDataFlow 爬虫控制中心，负责爬虫任务的下发，爬取数据的查询 （数据接收采用kfaka+Java，数据查询+任务下发 这里是后端做还是爬虫做）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="50" y="870" width="820" height="30" as="geometry" />
+        <mxCell id="u9-jsfHzy2ss17F3eqX4-48" value="1、BiyaoDataFlow 爬虫控制中心，负责爬虫任务的下发，爬取数据的查询 （数据接收采用kfaka+Java，数据查询+任务下发 这里是后端做还是爬虫做）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="27" y="870" width="890" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="u9-jsfHzy2ss17F3eqX4-50" value="2、BiyaoCrawlAPI 爬虫调度中心，负责爬虫任务的接收和分发（Golang+gRPC实现）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="47" y="900" width="480" height="30" as="geometry" />
+        <mxCell id="u9-jsfHzy2ss17F3eqX4-50" value="2、BiyaoCrawlAPI 爬虫调度中心，负责爬虫任务的接收和分发（Golang+gRPC实现）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="27" y="900" width="520" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="u9-jsfHzy2ss17F3eqX4-51" value="3、BiyaoCrawlLet 爬虫注册中心，负责与爬虫解析端交互（Golang+gRPC实现）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="48" y="930" width="450" height="30" as="geometry" />
+        <mxCell id="u9-jsfHzy2ss17F3eqX4-51" value="3、BiyaoCrawlLet 爬虫注册中心，负责与爬虫解析端交互（Golang+gRPC实现）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="28" y="930" width="490" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="u9-jsfHzy2ss17F3eqX4-58" value="4、spider-xxx 爬虫解析端，负责解析天猫、京东、抖音等平台的数据（Python/Golang）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="47" y="960" width="490" height="30" as="geometry" />
+        <mxCell id="u9-jsfHzy2ss17F3eqX4-58" value="4、spider-xxx 爬虫解析端，负责解析天猫、京东、抖音等平台的数据（Python/Golang）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="28" y="960" width="530" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="u9-jsfHzy2ss17F3eqX4-59" value="5、SignHub 爬虫逆向中心，负责JS算法还原和Android的逆向(Python/Golang)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="46" y="990" width="440" height="30" as="geometry" />
+        <mxCell id="u9-jsfHzy2ss17F3eqX4-59" value="5、SignHub 爬虫逆向中心，负责JS算法还原和Android的逆向(Python/Node/Java)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="31" y="990" width="490" height="30" as="geometry" />
         </mxCell>
         <mxCell id="u9-jsfHzy2ss17F3eqX4-60" value="Android Hook" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="820" y="335" width="90" height="35" as="geometry" />
@@ -152,8 +152,11 @@
         <mxCell id="u9-jsfHzy2ss17F3eqX4-65" value="Cookie" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="960" y="790" width="90" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="u9-jsfHzy2ss17F3eqX4-73" value="6、PassHub 爬虫下载器，负责商品的下载(Java/Node)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="45" y="1020" width="320" height="30" as="geometry" />
+        <mxCell id="u9-jsfHzy2ss17F3eqX4-73" value="6、PassHub 爬虫下载器，负责商品的下载(Golang/Python)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="31" y="1020" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i3g2qH0CeW9kxm3Lizja-3" value="7、WebPage 爬虫前端，供产品和数据使用（Vue.js）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="32" y="1050" width="330" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
