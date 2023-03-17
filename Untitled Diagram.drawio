@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-17T06:47:34.975Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="iaASxXiuFbAHMiRy-cXt" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-17T07:49:59.300Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="G5cWyr9HVXalfqmzSfji" version="21.0.6" type="github">
   <diagram name="Page-1" id="YugNHdWj2oaaFu2_VZQL">
     <mxGraphModel dx="1509" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
       <root>
@@ -164,8 +164,8 @@
         <mxCell id="i3g2qH0CeW9kxm3Lizja-5" value="kafka将爬取的数据落盘到哪里，是不是直接可以使用kafka connector，是不是有定制化的分析或者搜索（es?）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="41" y="796" width="610" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i3g2qH0CeW9kxm3Lizja-6" value="每次爬取的数据是直接insert还是update，是否有对特定商品或者特定店铺的监控需求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="40" y="820" width="470" height="30" as="geometry" />
+        <mxCell id="i3g2qH0CeW9kxm3Lizja-6" value="每次爬取的数据是直接insert还是update，是否有对特定商品、特定店铺、特定品牌、特定分类的监控需求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="820" width="580" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i3g2qH0CeW9kxm3Lizja-8" value="大规模爬取还需要购买第三方的代理IP服务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="41" y="845" width="250" height="30" as="geometry" />
