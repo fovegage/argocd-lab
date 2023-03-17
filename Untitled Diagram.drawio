@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-17T02:43:30.745Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="hS0Cq_Z_PVl-03FZlFhi" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-17T02:43:44.273Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="kD6NwFWu2KVankZB-gSq" version="21.0.6" type="github">
   <diagram name="Page-1" id="YugNHdWj2oaaFu2_VZQL">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
       <root>
@@ -79,7 +79,7 @@
           <mxGeometry x="255" y="700" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u9-jsfHzy2ss17F3eqX4-30" value="接收数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="240" y="540" as="geometry">
+          <mxGeometry x="230" y="540" as="geometry">
             <mxPoint x="88" y="-30" as="offset" />
           </mxGeometry>
         </mxCell>
