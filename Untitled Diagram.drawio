@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-28T09:42:09.741Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="d7F5cXgA2tEPZcmCC1Zo" version="21.0.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-28T09:46:49.002Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="g1ObQ9RcT9s2VsbIdfRA" version="21.0.10" type="github">
   <diagram name="Page-1" id="YugNHdWj2oaaFu2_VZQL">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
       <root>
@@ -153,7 +153,7 @@
         <mxCell id="u9-jsfHzy2ss17F3eqX4-60" value="AlgorithmSign" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="337.5" width="90" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="u9-jsfHzy2ss17F3eqX4-61" value="JS Sign" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="u9-jsfHzy2ss17F3eqX4-61" value="JsSign" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1000" y="337.5" width="90" height="35" as="geometry" />
         </mxCell>
         <mxCell id="u9-jsfHzy2ss17F3eqX4-63" value="Proxy" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -192,7 +192,7 @@
         <mxCell id="i3g2qH0CeW9kxm3Lizja-12" value="JS sign 负责Web端、小程序端的逆向" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="53" y="955" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="W4_fSt0hGYG65lzKa6YC-1" value="Remote Hook" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="W4_fSt0hGYG65lzKa6YC-1" value="EmulateSign" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="895" y="337.5" width="90" height="35" as="geometry" />
         </mxCell>
         <mxCell id="W4_fSt0hGYG65lzKa6YC-3" value="Cache" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
