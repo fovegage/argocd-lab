@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-22T06:39:49.822Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="aiuUHNjxtpDmUOTQwP3l" version="21.0.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-28T09:42:09.741Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="d7F5cXgA2tEPZcmCC1Zo" version="21.0.10" type="github">
   <diagram name="Page-1" id="YugNHdWj2oaaFu2_VZQL">
-    <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -114,7 +114,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="W4_fSt0hGYG65lzKa6YC-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="u9-jsfHzy2ss17F3eqX4-35" target="W4_fSt0hGYG65lzKa6YC-1">
+        <mxCell id="W4_fSt0hGYG65lzKa6YC-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="u9-jsfHzy2ss17F3eqX4-35" target="W4_fSt0hGYG65lzKa6YC-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u9-jsfHzy2ss17F3eqX4-35" value="SignHub" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -126,7 +126,7 @@
         <mxCell id="u9-jsfHzy2ss17F3eqX4-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="u9-jsfHzy2ss17F3eqX4-36" target="u9-jsfHzy2ss17F3eqX4-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="W4_fSt0hGYG65lzKa6YC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u9-jsfHzy2ss17F3eqX4-36" target="W4_fSt0hGYG65lzKa6YC-3">
+        <mxCell id="W4_fSt0hGYG65lzKa6YC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="u9-jsfHzy2ss17F3eqX4-36" target="W4_fSt0hGYG65lzKa6YC-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u9-jsfHzy2ss17F3eqX4-36" value="PassHub" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -150,7 +150,7 @@
         <mxCell id="u9-jsfHzy2ss17F3eqX4-59" value="5、SignHub 爬虫逆向中心，负责JS算法还原和Android的逆向(Python/Node/Java)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="14" y="900" width="490" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="u9-jsfHzy2ss17F3eqX4-60" value="Android Sign" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="u9-jsfHzy2ss17F3eqX4-60" value="AlgorithmSign" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="337.5" width="90" height="35" as="geometry" />
         </mxCell>
         <mxCell id="u9-jsfHzy2ss17F3eqX4-61" value="JS Sign" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -192,10 +192,10 @@
         <mxCell id="i3g2qH0CeW9kxm3Lizja-12" value="JS sign 负责Web端、小程序端的逆向" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="53" y="955" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="W4_fSt0hGYG65lzKa6YC-1" value="Remote Hook" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="W4_fSt0hGYG65lzKa6YC-1" value="Remote Hook" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="895" y="337.5" width="90" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="W4_fSt0hGYG65lzKa6YC-3" value="Cache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="W4_fSt0hGYG65lzKa6YC-3" value="Cache" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="895" y="790" width="90" height="35" as="geometry" />
         </mxCell>
       </root>
