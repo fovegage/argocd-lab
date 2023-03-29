@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-28T09:49:36.991Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="VgRoQP1MzKaeUNIYjAnD" version="21.0.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-29T01:57:08.654Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="flx0qvn5s4vdljsfHazU" version="21.1.1" type="github">
   <diagram name="Page-1" id="YugNHdWj2oaaFu2_VZQL">
-    <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -50,7 +50,7 @@
             <mxPoint x="530" y="548" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u9-jsfHzy2ss17F3eqX4-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1" source="u9-jsfHzy2ss17F3eqX4-9">
+        <mxCell id="u9-jsfHzy2ss17F3eqX4-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="u9-jsfHzy2ss17F3eqX4-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="720" y="364" />
@@ -60,7 +60,7 @@
             <mxPoint x="295" y="404" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sIW8Dqcb-4BBgIIZ5pLu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u9-jsfHzy2ss17F3eqX4-9" target="u9-jsfHzy2ss17F3eqX4-21">
+        <mxCell id="sIW8Dqcb-4BBgIIZ5pLu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="u9-jsfHzy2ss17F3eqX4-9" target="u9-jsfHzy2ss17F3eqX4-21" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="720" y="435" />
@@ -145,7 +145,7 @@
         <mxCell id="u9-jsfHzy2ss17F3eqX4-60" value="AlgorithmSign" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="760" y="337.5" width="90" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="u9-jsfHzy2ss17F3eqX4-61" value="JsSign" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="u9-jsfHzy2ss17F3eqX4-61" value="HookSign" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="980" y="337.5" width="90" height="35" as="geometry" />
         </mxCell>
         <mxCell id="u9-jsfHzy2ss17F3eqX4-63" value="Proxy" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -157,10 +157,10 @@
         <mxCell id="W4_fSt0hGYG65lzKa6YC-1" value="EmulateSign" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="875" y="337.5" width="90" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="W4_fSt0hGYG65lzKa6YC-3" value="Cache" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="W4_fSt0hGYG65lzKa6YC-3" value="Fake" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="875" y="790" width="90" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="sIW8Dqcb-4BBgIIZ5pLu-4" value="RocketMQ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sIW8Dqcb-4BBgIIZ5pLu-4" value="RocketMQ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="500" y="411" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
